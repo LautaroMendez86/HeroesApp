@@ -1,0 +1,37 @@
+.aside{
+    width: 100vw;
+    background: rgb(122, 17, 17);
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    text-align: center;
+    justify-content: center;
+    color: azure;
+    font-size: 2rem;
+    font-variant: small-caps;
+    z-index: 8;
+    align-content: center;
+    overflow: hidden;
+    display: none;
+    transition: 500ms linear;
+    font-family: sans-serif;
+
+}
+
+.aside a{
+    display: block;
+    color: aliceblue;
+    text-decoration: none;
+    margin: 10px;
+    width: 100vw;
+}
+
+
+
+.active{
+    display: none;
+}
+
+.inactive{
+    display: grid;
+}
